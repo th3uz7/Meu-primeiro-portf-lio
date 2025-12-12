@@ -1,0 +1,26 @@
+.container-projetos{
+    background: rgba(255, 255, 255, 0.06);
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 25px;
+    border-radius: 15px;
+    gap: 40px;
+    margin-top: 40px;
+}
+.tecnologias{
+    font-size: 16px;
+    color: #9ecaff;
+    font-style: normal;
+}
+.foto-projeto{
+    width: 250px;
+    height: 150px;
+    border-radius: 12px;
+    object-fit: cover;      /*Faz com que não distorça a imagem*/
+    transition: transform 0.3s ease;
+}
+.foto-projeto:hover{
+    transform: scale(1.05);
+}

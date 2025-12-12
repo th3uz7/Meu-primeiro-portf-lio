@@ -1,0 +1,29 @@
+.container-hobbies{
+    background: rgba(255, 255, 255, 0.06);
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 25px;
+    border-radius: 15px;
+    display: flex; 
+    flex-wrap: wrap;  
+    gap: 40px;
+    margin-top: 40px;
+}
+.foto-academia{
+    gap: 80px;
+    display: flex;
+    object-fit: cover;
+}
+.foto-carros{
+    max-width: 100%;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    object-fit: cover;
+}
+.foto-timao{
+    gap: 80px;
+    display: flex;
+}

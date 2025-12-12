@@ -1,0 +1,8 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;   /*80% da altura da tela*/
+    padding-left: 80px;
+    padding-right: 80px;
+}
