@@ -27,13 +27,6 @@ O objetivo deste projeto é mostrar minha evolução como desenvolvedor e reunir
 - Informações de **Contato**  
 
 ---
-
-## 🌐 Acesse o projeto
-
-🔗 **Portfólio online:**  
-_(adicione aqui o link do GitHub Pages quando estiver ativo)_
-
----
 ## 👤 Autor
 
 Desenvolvido por **Matheus**  
