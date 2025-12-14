@@ -20,6 +20,14 @@ body{
     .footer p{
         font-size: 12px;
     }
+    .container-sobre {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-sobre {
+        text-align: center;
+    }
 }
 header{
     position: fixed;
@@ -39,19 +47,24 @@ header{
 
 .menu{
     display: inline-flex;   /*Faz com que ocupe so o tamanho do conteúdo*/
-    gap: 40px;      /*Espaço entre os itens*/
+    gap: 30px;      /*Espaço entre os itens*/
     align-items: center;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     list-style: none;
 }
-.menu a:hover{        /*Parte mais chave, serve para dar efeito quando passar o mouse*/
+.menu button:hover{        /*Parte mais chave, serve para dar efeito quando passar o mouse*/
     color: white;
     cursor: pointer; /*Coloca uma mãozinha no cursor*/
     transition: 0.3s;   /*Animação para mudar de cor*/
 }
-.menu a{
-    text-decoration: none;
+.menu button{
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    padding: 5px 10px;
     color: #9ecaff;
 }
 .logo {
@@ -60,6 +73,14 @@ header{
     color: white;
     margin-left: 10px;
     text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+.logo:hover{
+    color: #9ecaff;
 }
 .h1-global{
     font-size: 45px;
