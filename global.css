@@ -53,19 +53,15 @@ header{
     font-style: italic;
     list-style: none;
 }
-.menu button:hover{        /*Parte mais chave, serve para dar efeito quando passar o mouse*/
+.menu a:hover{        /*Parte mais chave, serve para dar efeito quando passar o mouse*/
     color: white;
     cursor: pointer; /*Coloca uma mãozinha no cursor*/
     transition: 0.3s;   /*Animação para mudar de cor*/
 }
-.menu button{
-    background: none;
-    border: none;
-    font-family: inherit;
-    font-size: inherit;
-    font-style: inherit;
+.menu a{
     padding: 5px 10px;
     color: #9ecaff;
+    text-decoration: none;
 }
 .logo {
     font-size: 25px;
